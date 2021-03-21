@@ -8,7 +8,7 @@ module.exports = {
 		await message.react("✅");
 
 		const channel = await message.guild.channels.create(`ticket - ${message.author.tag}`);
-		channel.setParent("821139274589274143");
+		channel.setParent("822548929052409896");
 
 		channel.updateOverwrite(message.guild.id, {
 			SEND_MESSAGES: false,
